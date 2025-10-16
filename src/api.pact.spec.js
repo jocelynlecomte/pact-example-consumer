@@ -17,7 +17,7 @@ describe('API Pact test', () => {
     test('ID 10 exists', async () => {
       // Arrange
       const expectedProduct = {
-        id: '10',
+        uuid: '10',
         type: 'CREDIT_CARD',
         name: '28 Degrees',
         color: 'red'
@@ -85,7 +85,7 @@ describe('API Pact test', () => {
     test('products exists', async () => {
       // set up Pact interactions
       const expectedProduct = {
-        id: '10',
+        uuid: '10',
         type: 'CREDIT_CARD',
         name: '28 Degrees',
         color: 'red'

@@ -1,6 +1,6 @@
 export class Product {
-  constructor({id, name, type, color}) {
-    this.id = id
+  constructor({uuid, name, type, color}) {
+    this.uuid = uuid
     this.name = name
     this.type = type
     this.color = color
